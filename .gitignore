@@ -1,0 +1,53 @@
+### IntelliJ IDEA ###
+# Компилированные файлы
+*.class
+
+# Директории сборки
+target/
+build/
+dist/
+out/
+
+# Локальные репозитории зависимостей
+.m2/
+.gradle/
+
+# IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+.metadata/
+.settings/
+.classpath
+.project
+nbproject/private/
+nbbuild/
+
+# Логи и временные файлы
+*.log
+*.tmp
+*.temp
+
+# Конфиденциальные файлы
+application.properties
+config.env
+*.key
+*.pem
+
+# Системные файлы
+.DS_Store
+Thumbs.db
+.cache/
+
+# Исполняемые и бинарные файлы
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Пакеты и архивы
+*.jar
+*.war
+*.zip
+*.tar.gz
